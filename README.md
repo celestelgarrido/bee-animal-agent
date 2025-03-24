@@ -1,4 +1,4 @@
-# Python FastAPI Backend Template
+# Python FastAPI Backend Example
 App to help users with animal trips
 
 # Technologies
