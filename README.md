@@ -13,7 +13,7 @@ We will use
 2. Clone this repo
 3. Install in your laptop poetry
 ```bash
-pip install poetry
+brew install poetry
 ```
 4. Install project dependencies
 ```bash
@@ -27,7 +27,11 @@ ollama serve
 ```bash
 ollama pull granite3.1-dense:8b
 ```
-7. Run app
+7. Activate virtual env
+```bash
+source .venv/bin/activate
+```
+8. Run app (other terminal)
 ```bash
 poetry run python -m uvicorn animal.src.main:app --reload
 ```
