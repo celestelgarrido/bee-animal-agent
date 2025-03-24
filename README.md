@@ -8,7 +8,7 @@ We will use
 - Uvicorn as server to run the application on the laptop 
 - BeeAI as a framework to develop agents
 
-# Dev
+# Run example
 1. Prerequisites: Install ollama (https://ollama.com/download) or have a watsonx IBM Cloud 
 2. Clone this repo
 3. Install in your laptop poetry
