@@ -1,11 +1,9 @@
 from fastapi import FastAPI
-from animal.src.api.user import user
+from animal.src.api.simpleAgent import agent
 
 app = FastAPI(title="Mi API con FastAPI")
 
-# Incluir los routers de los endpoints
-app.include_router(user)
+# Include routers endpoints
+app.include_router(agent)
 
-@app.get("/")
-def root():
-    return {"message": "Bienvenido a mi API"}
+ 

@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class User(BaseModel):
+class Animal(BaseModel):
     id: int
     name: str
-    email: str
+    owner: str
