@@ -3,10 +3,10 @@ App to help users with animal trips
 
 # Technologies
 We will use
-- Poetry as a package manager
-- FastAPI as a framework to develop our back end application
-- Uvicorn as server to run the application on the laptop 
-- BeeAI as a framework to develop agents
+- Poetry as a package manager (https://python-poetry.org/)
+- FastAPI as a framework to develop our back end application (https://fastapi.tiangolo.com/)
+- Uvicorn as server to run the application on the laptop (https://www.uvicorn.org/)
+- BeeAI as a framework to develop agents (https://github.com/i-am-bee/beeai-framework)
 
 # Run example
 1. Prerequisites: Install ollama (https://ollama.com/download) or have a watsonx IBM Cloud 
